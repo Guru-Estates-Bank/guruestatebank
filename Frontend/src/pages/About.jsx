@@ -61,7 +61,7 @@ export default function About() {
   return (
     <main className="overflow-hidden bg-[#f8f3ea] text-[#120b0a]">
       {/* HERO */}
-      <section className="relative min-h-[78vh] overflow-hidden bg-[#240d0d] text-[#f8f3ea]">
+      <section className="relative min-h-[78vh] overflow-hidden  bg-black text-[#f8f3ea]" >
         {/* Architectural background */}
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -right-32 -top-32 h-[520px] w-[520px] rounded-full border border-[#c9a15a]/20" />
@@ -93,7 +93,7 @@ export default function About() {
               className="max-w-4xl font-[var(--font-display)] text-5xl leading-[0.98] tracking-[-0.04em] sm:text-6xl lg:text-8xl"
             >
               Property decisions,
-              <span className="block italic text-[#c9a15a]">made clearer.</span>
+              <span className="block  text-[#c9a15a]">made clearer.</span>
             </motion.h1>
 
             <motion.p
@@ -108,14 +108,7 @@ export default function About() {
             </motion.p>
           </div>
 
-          <div className="absolute bottom-8 right-5 hidden text-right sm:block lg:right-10">
-            <p className="font-[var(--font-display)] text-4xl text-[#c9a15a]">
-              GEB
-            </p>
-            <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-white/40">
-              People. Property. Possibilities.
-            </p>
-          </div>
+         
         </div>
       </section>
 
@@ -195,7 +188,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.7, delay: 0.1, ease }}
-              className="group relative overflow-hidden bg-[#671f1c] p-8 text-[#f8f3ea] sm:p-12 lg:p-16"
+              className="group relative overflow-hidden bg-black p-8 text-[#f8f3ea] sm:p-12 lg:p-16"
             >
               <div className="absolute -bottom-20 -right-20 h-64 w-64 rounded-full border border-[#c9a15a]/20 transition-transform duration-700 group-hover:scale-125" />
 
@@ -229,7 +222,7 @@ export default function About() {
 
             <h2 className="mt-5 font-[var(--font-display)] text-4xl tracking-[-0.03em] sm:text-5xl">
               Principles behind
-              <span className="italic text-[#671f1c]">
+              <span className=" text-[#671f1c]">
                 {" "}
                 every recommendation.
               </span>
@@ -287,7 +280,7 @@ export default function About() {
 
             <h2 className="mt-5 max-w-xl font-[var(--font-display)] text-4xl leading-tight sm:text-5xl">
               People behind the
-              <span className="italic text-[#c9a15a]"> perspective.</span>
+              <span className=" text-[#c9a15a]"> perspective.</span>
             </h2>
           </div>
 
@@ -322,7 +315,7 @@ export default function About() {
       </section>
 
       {/* CLOSING STATEMENT */}
-      <section className="relative overflow-hidden bg-[#671f1c] px-5 py-20 text-center text-[#f8f3ea] sm:px-8 lg:py-28">
+      <section className="relative overflow-hidden bg-black px-5 py-20 text-center text-[#f8f3ea] sm:px-8 lg:py-28">
         <div className="absolute left-1/2 top-1/2 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#c9a15a]/15" />
 
         <div className="relative mx-auto max-w-4xl">
@@ -332,7 +325,7 @@ export default function About() {
 
           <h2 className="mt-6 font-[var(--font-display)] text-4xl leading-tight sm:text-6xl">
             The right property decision
-            <span className="block italic text-[#c9a15a]">
+            <span className="block  text-[#c9a15a]">
               starts with the right conversation.
             </span>
           </h2>
@@ -346,6 +339,7 @@ export default function About() {
           </a>
         </div>
       </section>
+      
     </main>
   );
 }

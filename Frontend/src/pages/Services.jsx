@@ -498,51 +498,6 @@ export default function Services() {
         </div>
       </section>
 
-      {/* =========================================================
-          FINAL CTA
-      ========================================================= */}
-      <section className="relative overflow-hidden bg-[#C9A15A] text-[#070D14]">
-        <div className="pointer-events-none absolute right-[-120px] top-1/2 h-[480px] w-[480px] -translate-y-1/2 rounded-full border border-[#070D14]/10" />
-        <div className="pointer-events-none absolute right-[-50px] top-1/2 h-[340px] w-[340px] -translate-y-1/2 rounded-full border border-[#070D14]/10" />
-
-        <div className="relative mx-auto max-w-[1440px] px-6 py-24 lg:px-12 lg:py-32">
-          <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
-            <div>
-              <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-[#5E4824]">
-                Let's Talk Property
-              </p>
-
-              <h2 className="mt-5 max-w-4xl font-serif text-5xl leading-[0.95] tracking-[-0.04em] sm:text-6xl lg:text-7xl">
-                Let's find your
-                <span className="block">next opportunity.</span>
-              </h2>
-
-              <p className="mt-7 max-w-xl text-base leading-7 text-[#51401F]">
-                Tell us what you're looking for and we'll help you identify the
-                right next step.
-              </p>
-            </div>
-
-            <div className="flex flex-wrap gap-3">
-              <a
-                href="/contact"
-                className="inline-flex items-center gap-3 bg-[#070D14] px-6 py-4 text-sm font-semibold text-[#F7F4EE] transition hover:bg-[#151D27]"
-              >
-                Talk to an Advisor
-                <ArrowRight size={16} />
-              </a>
-
-              <a
-                href="#"
-                className="inline-flex items-center gap-3 border border-[#070D14]/30 px-6 py-4 text-sm font-semibold transition hover:border-[#070D14]"
-              >
-                <MessageCircle size={16} />
-                WhatsApp Us
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+        </main>
   );
 }

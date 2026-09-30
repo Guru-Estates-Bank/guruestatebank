@@ -771,7 +771,7 @@ export default function Home() {
         </div>
       </section>
 
-      <CurvedDivider dark />
+  
 
       {/* =====================================================
           SOLUTIONS
@@ -822,7 +822,7 @@ export default function Home() {
 
                 <span className="text-xs text-[#C9A15A]">{num}</span>
 
-                <h3 className="mt-20 font-serif text-3xl">{title}</h3>
+                <h3 className="mt-2 font-serif text-3xl">{title}</h3>
 
                 <p className="mt-3 text-sm leading-6 text-[#5B6470]">{body}</p>
 
@@ -868,7 +868,7 @@ export default function Home() {
             </motion.div>
 
             <Link
-              href="/properties"
+              to="/properties"
               className="group inline-flex items-center gap-2 text-sm font-semibold"
             >
               View All Properties
@@ -955,7 +955,7 @@ export default function Home() {
         </div>
       </section>
 
-      <CurvedDivider flip />
+     
 
       {/* =====================================================
           WHY GURU
@@ -1147,7 +1147,6 @@ export default function Home() {
         </div>
       </section>
 
-      <CurvedDivider dark flip />
       {/* =====================================================
           CONTACT / START A CONVERSATION
       ===================================================== */}
@@ -1445,8 +1444,8 @@ export default function Home() {
               <HomeContactCard
                 icon={Mail}
                 label="Email"
-                value="guruestatesbank@gmail.com"
-                href="mailto:guruestatesbank@gmail.com"
+                value="info@guruestatesbank.com"
+                href="mailto:info@guruestatesbank.com"
               />
 
               {/* OFFICE */}
@@ -1496,45 +1495,6 @@ export default function Home() {
           FINAL CTA
       ===================================================== */}
 
-      <section className="relative overflow-hidden bg-[#C9A15A] px-5 py-24 sm:px-8 lg:px-10 lg:py-32">
-        <div className="absolute -right-24 -top-24 h-96 w-96 rounded-full border border-[#070D14]/10" />
-
-        <div className="absolute -right-2 -top-2 h-56 w-56 rounded-full border border-[#070D14]/10" />
-
-        <div className="absolute bottom-0 left-0 h-px w-1/2 bg-[#070D14]/20" />
-
-        <div className="relative mx-auto flex max-w-7xl flex-col gap-10 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <SectionKicker>Ready When You Are</SectionKicker>
-
-            <h2 className="mt-5 max-w-3xl font-serif text-5xl leading-[.95] tracking-tight sm:text-7xl">
-              Let's Find Your Next Opportunity
-            </h2>
-
-            <p className="mt-6 max-w-xl text-[#070D14]/65">
-              Tell us what you're looking for and we'll help you identify the
-              next best step.
-            </p>
-          </div>
-
-          <div className="flex shrink-0 flex-col gap-3 sm:flex-row">
-            <a
-              href="/contact"
-              className="inline-flex items-center justify-center gap-2 bg-[#070D14] px-7 py-4 text-sm font-semibold text-white transition hover:bg-[#151e28]"
-            >
-              Talk to an Advisor
-              <ArrowRight size={16} />
-            </a>
-
-            <a
-              href="https://wa.me/+918282888888"
-              className="inline-flex items-center justify-center border border-[#070D14]/25 px-7 py-4 text-sm font-semibold text-[#070D14] transition hover:bg-[#070D14]/5"
-            >
-              WhatsApp Us
-            </a>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }

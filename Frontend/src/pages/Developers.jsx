@@ -28,7 +28,7 @@ export default function Developers() {
     <main className="min-h-screen bg-[#f8f3ea] text-[#120b0a]">
       <Popup />
       {/* HERO */}
-      <section className="relative overflow-hidden bg-[#240d0d] text-white">
+      <section className="relative overflow-hidden  bg-black text-white">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -right-40 -top-40 h-[650px] w-[650px] rounded-full border border-[#c9a15a]/20" />
           <div className="absolute right-20 top-20 h-[420px] w-[420px] rounded-full border border-[#c9a15a]/10" />
@@ -47,7 +47,7 @@ export default function Developers() {
 
             <h1 className="font-display text-5xl leading-[0.95] tracking-[-0.03em] sm:text-6xl lg:text-8xl">
               Our Developer
-              <span className="block italic text-[#ead7ad]">Partners.</span>
+              <span className="block  text-[#ead7ad]">Partners.</span>
             </h1>
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/65 sm:text-lg">
@@ -111,7 +111,7 @@ export default function Developers() {
               <div className="relative">
                 {/* LOGO */}
                 <div className="flex items-start justify-between">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-[#240d0d] font-display text-xl text-[#c9a15a] transition duration-500 group-hover:bg-[#671f1c]">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-[#240d0d] font-display text-xl text-[#c9a15a] transition duration-500 group-hover:bg-black">
                     {developer.logo ||
                       developer.name
                         .split(" ")
@@ -167,7 +167,7 @@ export default function Developers() {
                   className="mt-6 flex w-full items-center justify-between text-sm font-bold text-[#671f1c]"
                 >
                   View Developer
-                  <span className="flex h-9 w-9 items-center justify-center rounded-full border border-[#671f1c]/20 transition-all duration-300 group-hover:bg-[#671f1c] group-hover:text-white">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-full border border-[#671f1c]/20 transition-all duration-300 group-hover:bg-black group-hover:text-white">
                     <ArrowUpRight className="h-4 w-4" />
                   </span>
                 </button>
@@ -189,7 +189,7 @@ export default function Developers() {
 
             <button
               onClick={() => setQuery("")}
-              className="mt-6 rounded-full bg-[#671f1c] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#9b3028]"
+              className="mt-6 rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#9b3028]"
             >
               Reset Search
             </button>
@@ -213,7 +213,7 @@ export default function Developers() {
 
           <a
             href="#/contact"
-            className="inline-flex w-fit items-center gap-2 rounded-full bg-[#240d0d] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#671f1c]"
+            className="inline-flex w-fit items-center gap-2 rounded-full bg-[#240d0d] px-6 py-3 text-sm font-semibold text-white transition hover:bg-black"
           >
             Talk to an Advisor
             <ArrowUpRight className="h-4 w-4 text-[#c9a15a]" />

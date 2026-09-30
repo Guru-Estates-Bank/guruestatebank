@@ -53,11 +53,11 @@ export default function Insights() {
 
       <section className="relative overflow-hidden bg-[#070D14] text-white">
         <div className="absolute inset-0">
-          <img
+          {/* <img
             src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=2200&q=85"
             alt=""
             className="h-full w-full object-cover opacity-30"
-          />
+          /> */}
 
           <div className="absolute inset-0 bg-gradient-to-r from-[#070D14] via-[#070D14]/90 to-[#070D14]/50" />
 
@@ -375,13 +375,7 @@ export default function Insights() {
               </button>
             </div>
 
-            <a
-              href="/contact"
-              className="mt-5 flex items-center justify-between bg-[#C9A15A] px-4 py-3 text-xs font-semibold text-[#070D14] transition hover:bg-[#d8b873]"
-            >
-              Talk to an Advisor
-              <ArrowUpRight size={15} />
-            </a>
+           
           </motion.div>
         )}
 
@@ -407,10 +401,7 @@ export default function Insights() {
             </span>
           </span>
 
-          <ArrowUpRight
-            size={15}
-            className="text-white/40 transition group-hover:text-[#C9A15A]"
-          />
+         
         </motion.button>
       </div>
     </main>

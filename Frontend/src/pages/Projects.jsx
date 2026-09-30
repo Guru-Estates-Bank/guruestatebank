@@ -36,7 +36,7 @@ export default function Projects() {
   return (
     <main className="min-h-screen bg-[#f8f3ea] text-[#120b0a]">
       {/* HERO */}
-      <section className="relative overflow-hidden bg-[#240d0d] text-white">
+      <section className="relative overflow-hidden  bg-black text-white">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute right-[-8%] top-[-30%] h-[600px] w-[600px] rounded-full border border-[#c9a15a]/20" />
           <div className="absolute right-[4%] top-[-18%] h-[450px] w-[450px] rounded-full border border-[#c9a15a]/10" />
@@ -51,7 +51,7 @@ export default function Projects() {
 
             <h1 className="font-display text-5xl leading-[0.95] tracking-[-0.03em] sm:text-6xl lg:text-8xl">
               Explore
-              <span className="block italic text-[#ead7ad]">Projects.</span>
+              <span className="block  text-[#ead7ad]">Projects.</span>
             </h1>
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/65 sm:text-lg">
@@ -93,7 +93,7 @@ export default function Projects() {
               onClick={() => setCategory(item)}
               className={`whitespace-nowrap rounded-full px-5 py-2.5 text-sm font-medium transition-all duration-300 ${
                 category === item
-                  ? "bg-[#671f1c] text-white shadow-lg"
+                  ? "bg-black text-white shadow-lg"
                   : "text-[#5b4c47] hover:bg-[#ead7ad]/50"
               }`}
             >
@@ -190,7 +190,7 @@ export default function Projects() {
                   <button
                     type="button"
                     onClick={() => setSelectedProject(project)}
-                    className="mt-6 flex w-full items-center justify-between rounded-xl bg-[#240d0d] px-5 py-4 text-sm font-semibold text-white transition-all duration-300 hover:bg-[#671f1c]"
+                    className="mt-6 flex w-full items-center justify-between rounded-xl bg-[#240d0d] px-5 py-4 text-sm font-semibold text-white transition-all duration-300 hover:bg-black"
                   >
                     View Project
                     <ArrowUpRight className="h-4 w-4 text-[#c9a15a]" />
@@ -212,7 +212,7 @@ export default function Projects() {
 
             <a
               href="#/contact"
-              className="mt-7 inline-flex rounded-full bg-[#671f1c] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#9b3028]"
+              className="mt-7 inline-flex rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#9b3028]"
             >
               Talk to an Advisor
             </a>
@@ -221,7 +221,7 @@ export default function Projects() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#671f1c] text-white">
+      <section className="bg-black text-white">
         <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 lg:px-10 lg:py-24">
           <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
             <div>

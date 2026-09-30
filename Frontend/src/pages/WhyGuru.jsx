@@ -91,11 +91,11 @@ export default function WhyGuru() {
       <section className="relative min-h-[88vh] overflow-hidden bg-[#070D14] text-white">
         {/* Architectural background */}
         <div className="absolute inset-0">
-          <img
+          {/* <img
             src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2200&q=85"
             alt=""
             className="h-full w-full object-cover opacity-45"
-          />
+          /> */}
 
           <div className="absolute inset-0 bg-gradient-to-r from-[#070D14] via-[#070D14]/85 to-[#070D14]/25" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#070D14] via-transparent to-[#070D14]/40" />

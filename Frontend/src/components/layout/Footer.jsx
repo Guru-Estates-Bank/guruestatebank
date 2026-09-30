@@ -13,18 +13,9 @@ export default function Footer() {
 
   return (
     <footer className="relative overflow-hidden bg-[#0b0909] text-white">
-      {/* subtle background architecture */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute right-0 top-0 h-full w-[38%] bg-[#240d0d]" />
+      
 
-        <div className="absolute right-[12%] top-0 h-full w-px bg-[#b8965a]/10" />
-
-        <div className="absolute right-[25%] top-0 h-full w-px bg-[#b8965a]/5" />
-
-        <div className="absolute bottom-0 left-0 h-px w-full bg-gradient-to-r from-transparent via-[#b8965a]/30 to-transparent" />
-      </div>
-
-      <div className="container-guru relative z-10 py-20 md:py-28">
+      <div className="container-guru relative z-10 py-20 md:py-28 m-4">
         {/* Main content */}
         <div className="grid gap-16 lg:grid-cols-[1.5fr_.65fr_.8fr]">
           {/* Brand */}
@@ -113,7 +104,7 @@ export default function Footer() {
                 <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 transition-colors group-hover:border-[#c5a46d]/40">
                   <Mail size={14} />
                 </span>
-                guruestatesbank@gmail.com
+                info@guruestatesbank.com
               </a>
 
               <div className="pt-8">
@@ -126,29 +117,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Large brand mark */}
-        <div className="mt-24 overflow-hidden border-t border-white/[0.08] pt-8">
-          <div className="flex items-end justify-between gap-8">
-            <span className="font-display text-[13vw] font-light leading-[.7] tracking-[-.07em] text-white/[0.035]">
-              GEB
-            </span>
-
-            <span className="mb-1 hidden text-right text-[9px] uppercase tracking-[.25em] text-white/20 md:block">
-              ESTATES
-              <br />
-              BANK
-            </span>
-          </div>
-        </div>
-
-        {/* Bottom bar */}
-        <div className="mt-10 flex flex-col gap-3 border-t border-white/[0.06] pt-6 text-[10px] uppercase tracking-[.12em] text-white/25 md:flex-row md:items-center md:justify-between">
-          <span>© {new Date().getFullYear()} Guru Estates Bank</span>
-
-          <span>Real Estate Advisory & Investment</span>
-
-          <span>All Rights Reserved</span>
-        </div>
       </div>
     </footer>
   );

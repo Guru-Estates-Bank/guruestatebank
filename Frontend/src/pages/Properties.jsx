@@ -67,7 +67,7 @@ export default function Properties() {
     <main className="min-h-screen overflow-hidden bg-[#f7f4ee] text-[#070d14]">
       {" "}
       {/* ------------------------------------------------ HERO ------------------------------------------------ */}{" "}
-      <section className="relative bg-[#240d0d] px-5 pb-20 pt-32 text-white sm:px-8 lg:px-10 lg:pb-28 lg:pt-44">
+      <section className="relative  bg-black px-5 pb-20 pt-32 text-white sm:px-8 lg:px-10 lg:pb-28 lg:pt-44">
         {" "}
         {/* Decorative architectural lines */}{" "}
         <div className="pointer-events-none absolute inset-0 overflow-hidden">

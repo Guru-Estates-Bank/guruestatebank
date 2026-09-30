@@ -39,7 +39,7 @@ export default function Header({ scrolled }) {
         `}
       >
         {/* Top moving callback strip */}
-        <div className="hidden h-7 overflow-hidden border-b border-white/10 bg-[#070D14] lg:block">
+        {/* <div className="hidden h-7 overflow-hidden border-b border-white/10 bg-[#070D14] lg:block">
           <motion.div
             animate={{ x: ["0%", "-50%"] }}
             transition={{
@@ -60,7 +60,7 @@ export default function Header({ scrolled }) {
               </Link>
             ))}
           </motion.div>
-        </div>
+        </div> */}
 
         <div className="mx-auto flex h-[76px] max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
           {/* Logo */}

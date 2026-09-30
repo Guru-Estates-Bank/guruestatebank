@@ -73,7 +73,7 @@ export default function Contact() {
       {/* =========================================================
           HERO
       ========================================================= */}
-      <section className="relative overflow-hidden bg-[#240d0d] text-[#f8f3ea]">
+      <section className="relative overflow-hidden  bg-black text-[#f8f3ea]">
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -right-28 -top-28 h-[480px] w-[480px] rounded-full border border-[#c9a15a]/20" />
 
@@ -111,7 +111,7 @@ export default function Contact() {
             className="mt-7 max-w-5xl font-[var(--font-display)] text-5xl leading-[0.98] tracking-[-0.04em] sm:text-6xl lg:text-8xl"
           >
             Tell us what
-            <span className="block italic text-[#c9a15a]">
+            <span className="block  text-[#c9a15a]">
               you're looking for.
             </span>
           </motion.h1>
@@ -328,7 +328,7 @@ export default function Contact() {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="group mt-6 inline-flex w-full items-center justify-center gap-3 bg-[#671f1c] px-7 py-4 text-sm font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#240d0d] disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
+                      className="group mt-6 inline-flex w-full items-center justify-center gap-3 bg-black px-7 py-4 text-sm font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#240d0d] disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
                     >
                       {isSubmitting ? (
                         <>
@@ -391,8 +391,8 @@ export default function Contact() {
             <ContactCard
               icon={Mail}
               label="Email"
-              value="guruestatesbank@gmail.com"
-              href="mailto:guruestatesbank@gmail.com"
+              value="info@guruestatesbank.com"
+              href="mailto:info@guruestatesbank.com"
             />
 
             {/* OFFICE */}
@@ -443,7 +443,7 @@ export default function Contact() {
       {/* =========================================================
           BOTTOM CTA
       ========================================================= */}
-      <section className="relative overflow-hidden bg-[#671f1c] px-5 py-20 text-center text-[#f8f3ea] sm:px-8 lg:py-24">
+      <section className="relative overflow-hidden bg-black px-5 py-20 text-center text-[#f8f3ea] sm:px-8 lg:py-24">
         <div className="absolute left-1/2 top-1/2 h-[380px] w-[380px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-[#c9a15a]/15" />
 
         <div className="relative mx-auto max-w-3xl">
@@ -453,7 +453,7 @@ export default function Contact() {
 
           <h2 className="mt-5 font-[var(--font-display)] text-4xl leading-tight sm:text-5xl">
             Your next property decision
-            <span className="block italic text-[#c9a15a]">starts here.</span>
+            <span className="block  text-[#c9a15a]">starts here.</span>
           </h2>
 
           <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-white/55">
