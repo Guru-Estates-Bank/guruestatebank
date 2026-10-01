@@ -3,7 +3,7 @@ export const properties = [
   {
     id: "meridian-residences",
 
-    title: "The Meridian Residences",
+    title: "The Sobha Residences",
     location: "Gurugram",
     locality: "Sector 58, Gurugram",
 
