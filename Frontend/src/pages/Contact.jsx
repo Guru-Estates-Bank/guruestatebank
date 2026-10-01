@@ -415,7 +415,7 @@ export default function Contact() {
               <div className="mt-7 border-t border-white/10 pt-6">
                 <div className="flex items-center gap-3 text-sm text-white/60">
                   <Clock3 className="h-4 w-4 text-[#c9a15a]" />
-                  <span>Working hours to be confirmed</span>
+                  <span>Working hours: 9AM to 6PM</span>
                 </div>
               </div>
             </div>
