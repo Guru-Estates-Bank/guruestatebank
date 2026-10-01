@@ -375,7 +375,7 @@ export default function Contact() {
             <ContactCard
               icon={Phone}
               label="Call Us"
-              value="Talk to an Advisor"
+              value="+91 8282888888"
               href="tel:+8282888888"
             />
 
@@ -383,7 +383,7 @@ export default function Contact() {
             <ContactCard
               icon={MessageCircle}
               label="WhatsApp"
-              value="WhatsApp an Advisor"
+              value="+91 8282888888"
               href="https://wa.me/918282888888"
             />
 
